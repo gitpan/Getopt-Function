@@ -7,7 +7,7 @@ use Getopt::Mixed 1.006, 'nextOption';
 use strict;
 use Carp;
 use vars qw($VERSION $verbose_default);
-$VERSION=0.007;
+$VERSION=0.017;
 
 
 =head1 NAME
@@ -166,7 +166,7 @@ in the main package.  Something like this.
 	sub version() {
 	  print <<'EOF';
 	lists-from-files version 
-	$Id: Function.pm,v 1.9 2001/02/11 12:16:36 mikedlr Exp $
+	$Id: Function.pm,v 1.10 2001/08/30 21:31:11 mikedlr Exp $
 	EOF
         }
 
